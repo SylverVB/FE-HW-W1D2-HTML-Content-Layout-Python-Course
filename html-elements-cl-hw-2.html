@@ -1,0 +1,185 @@
+<!-- Lesson 2: Assignment | HTML Elements For Content and Layout
+
+1. Embedding Multimedia in Educational Content
+
+Problem Statement: In an era where digital learning is becoming increasingly prevalent, the traditional text-based delivery 
+of educational content can fail to fully engage students. This assignment challenges you to incorporate multimedia elements 
+into an HTML document designed to teach a simple concept (e.g., the water cycle, basic math principles, or a historical event), 
+thereby improving the learner's engagement and understanding.
+
+Task 1: Embed an Educational Image. Create an HTML page and embed an image that illustrates the concept you're teaching. Add 
+a caption using the <figcaption> element to describe the image. 
+    
+Expected Outcome: A web page displaying an image relevant to the educational content, with a caption explaining the image.
+
+Task 2: Include an Instructional Audio Clip Embed an audio clip that provides a brief explanation or reading of the concept. 
+Ensure the audio is accessible with playback controls.
+
+Expected Outcome: A web page with an embedded audio clip that plays an explanation of the chosen concept, complete with controls 
+for play, pause, and volume.
+
+Task 3: Integrate an Informative Video Incorporate a video that visually explains the concept. The video could be a lecture, an animation, 
+or a documentary clip related to the topic.
+
+Expected Outcome: A web page featuring a video that provides a comprehensive explanation or visualization of the concept, enhancing the 
+learner's understanding through visual and auditory stimulation.
+
+Completion Criteria:
+
+The HTML document must include at least one example of each multimedia element (image, audio, video) related to the educational content.
+Each multimedia element must be appropriately captioned or described to aid understanding.
+The page should be structured semantically, with clear headings and descriptive text accompanying each multimedia element to contextualize 
+its relevance to the educational content. -->
+
+<!-- 2. Crafting a Semantic Web Document
+
+Problem Statement: In the sprawling landscape of the web, countless pages suffer from poor structure and accessibility, making it challenging 
+for both users and search engines to navigate and understand content. This assignment challenges you to build a semantically rich, accessible 
+web page on a topic of your choice (e.g., a hobby, a tutorial, or a personal project), using HTML5 semantic elements to organize content logically.
+
+Task 1: Define the Page Structure Use semantic elements to define the basic structure of your web page, including a header, navigation, main content, and a footer.
+
+Expected Outcome: A web page with a clear, logical structure, marked up with semantic elements that delineate the header, navigation, main content, and footer. 
+
+Task 2: Organize Content Using Articles and Sections Within the <main> element, use <article> and <section> tags to organize the content related to your topic. 
+Use headings (<h2> to <h6>) to title each section or article appropriately.
+
+Expected Outcome: A semantically structured main content area, with articles and sections that logically separate different topics or ideas related to the main subject.
+
+Completion Criteria:
+
+The web document must employ semantic HTML5 elements to structure the content logically and accessibly.
+The page should make appropriate use of <article>, <section>, <nav>, <header>,  <main> , and 
+<footer>  elements where relevant to the content.
+Headings should be used to structure the content hierarchically, improving both readability and accessibility.
+
+-->
+
+<!-- This HTML web document combines both tasks "Embedding Multimedia in Educational Content" and "Crafting a Semantic Web Document"  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adding fonts from Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <meta name="description" content="This is my second homework!">
+    <meta name="keywords" content="HTML, Web Development, Frontend Engineering">
+    <meta name="author" content="Victor Bondaruk">
+    <style>
+        body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Poetsen One', sans-serif;
+        }
+        figcaption {
+            font-size: 14px;
+        }
+
+        h4 {
+           font-family: 'Poetsen One', sans-serif;
+        }
+    </style>
+    <title>Python Course</title>
+</head>
+<body>
+    <header>
+        <figure>
+        <h1 style="font-family: 'Poetsen One', sans-serif;">Join our course and become proficient in Python</h1>
+        <h4><i>Python programming is almost everywhere and the average internet user <br> 
+            encounters its ‘magic’ – without knowing it – numerous times per day. <br>
+            The Python programming language continues to be one of the world’s most <br>
+            popular among developers, offering unparalleled versatility and accessibility <br> 
+            within a wide range of industry fields.</i></h4>
+        <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200707215302/Best-Way-To-Start-Learning-Python-%E2%80%93-A-Complete-Roadmap.png" alt="Start Python" style="width: 580px;">
+        <h3 style="font-family: 'Poetsen One', sans-serif;">Learn at your own pace, on your own schedule</h3>
+        <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/0*wGKdYppWT2AMeL5l" alt="Python steps" style="width: 580px;">
+        <figcaption><i>Fig. Your journey from basics to real-time Python projects</i></figcaption>
+    </header>
+    <br>
+    <nav>
+        <ul>
+            <li><a href="#what-youll-learn">What You'll Learn</a></li>
+            <li><a href="#why-learn-python">Why Learn Python?</a></li>
+            <li><a href="#what-is-python">What is Python?</a></li>
+            <li><a href="#python-features">Python Features</a></li>
+            <li><a href="#listen-podcast">Listen to Podcast</a></li>
+            <li><a href="#preview-course">Preview Course</a></li>
+            <li><a href="#start-coding">Start Coding</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="what-youll-learn">
+            <h4>What you'll learn</h4>
+                <ul>
+                    <li>Start learning from scratch and learn about every Python 3 topic with hands-on examples</li>
+                    <li>You will be able to work with Python functions, namespaces and modules</li>
+                    <li>Learn to use Object Oriented Programming</li>
+                    <li>Build 12 Easy-to-Follow Python 3 Projects</li>
+                    <li>You will be able to apply the Python 3 knowledge you get from this course in coding exercises, real-life scenarioss</li>
+                    <li>Learn to use Python professionally</li>
+                    <li>Down-to-earth way explanations</li>
+                    <li>No prior Python knowledge is required!</li>
+                </ul>
+        </section>
+        <section id="why-learn-python">
+            <h4>Why learn Python?</h4>
+            <p>If you are looking for a programming language that is s flexible and easy to read, try learning Python. It is one of the most popular languages today, 
+            and programming in Python is used for everything from web and software development to data science and analytics to quality assurance.</p>
+        </section>
+        <section id="what-is-python">
+            <h4>What is Python?</h4>
+            <p> Python is a high-level, interpreted and general-purpose programming language known for its simplicity and readability. It was created by Guido van 
+                Rossum and first released in 1991. Python is designed to be easy to learn and use, making it an excellent choice for beginners in computer programming, 
+                as well as a powerful tool for experienced software developers.</p>
+        </section>
+        <article id="python-features">
+            <p>Here are some key characteristics and features of Python:</p>
+                <ol>
+                    <li><strong>Readable and Expressive:</strong> Emphasizing code readability with a clean and easy-to-understand syntax, Python’s use of indentation to define code blocks 
+                    (instead of braces or other delimiters), promotes consistent and clear code.</li>
+                    <li><strong>Interpreted Language:</strong> Python is an interpreted language, which means you do not need to compile your code before running it. You can run Python code directly, 
+                    which makes the overall development process faster.</li>
+                    <li><strong>High-Level Language:</strong> Python abstracts many low-level details, allowing developers to focus on solving problems rather than managing memory or other system-level tasks.</li>
+                    <li><strong>Multi-Paradigm:</strong> This is a language that supports multiple programming paradigms, including procedural, object-oriented and functional programming.</li>
+                    <li><strong>Extensive Standard Library:</strong> Python programming offers a vast standard library that includes modules and packages for various tasks. These include working 
+                    with files, data manipulation, networking and web development, among others. This rich standard library reduces the need for third-party libraries in many cases.</li>
+                    <li><strong>Cross-Platform:</strong> Available on various computer operating systems, Python is highly versatile and portable. Computer code written in Python can often be run on 
+                    different platforms with minimal or no modifications.</li>
+                    <li><strong>Dynamic Typing:</strong> Python uses dynamic typing, which means that you do not need to declare variable types explicitly. The interpreter infers the data type 
+                    of a variable during runtime.</li>
+                    <li><strong>Open Source:</strong> Python is an open-source programming language, which means it is freely available for anyone to use, modify and distribute. This has contributed 
+                        to its widespread adoption and the creation of a vibrant community of Python developers. 
+                    <li><strong>Large and Active Community:</strong> Python has a large and active community of developers and enthusiasts. This community contributes to the language’s growth, maintains 
+                        third-party libraries and provides extensive documentation and support.
+                </ol>
+        </article>
+        <br>
+        <!-- 1. Embedding Multimedia in Educational Content -->
+        <aside>
+            <h4 id="listen-podcast">Listen to the Real Python podcast</h4>
+            <audio controls>
+                <source src="https://files.realpython.com/podcasts/EP000_RPP.2fa37bcc4604.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <h4 id="preview-course">Preview this course</h4>
+            <video width='600px' controls poster="https://meemsee.com/wp-content/uploads/2024/02/Python-Mastery-2024-towardsdatascience-2.jpg">
+                <source src="https://mp4-c.udemycdn.com/2020-08-24_21-03-04-36cc8b879f267ff8a834a32bd999bb7d/1/WebHD_720p.mp4?Expires=1717049930&Signature=woaA1SUrcS-bGq1YhlCWTucUXWzmHVSkVx0O3My4DdXMeIuKhpDO-Kefv7zR9BAZqpCf71dOckbGCMypr5uK3atSLc5b2UvoQBL2IE2l9H2TtSENLfTS-hqxyowvkvjeNRSWNhkZYnRgwx9h2T9zoUPinv8fW6KWIQVj~~~my-RzIl1aOjprQ7QS4wc31LJDpiOnZ8RgPaBZTBKGGJmbh5hBWuBokL4qiRqXmutaPtRXpnyOxBEaz3dplQCsblcd~oFEk8paMOcIS-RmeJmpjRRAsMqFBK0BJhVwOuVaOzd3AiEa~imNmr~w-j5XCgzmoM7eEwaM2uGYhBJ-1sVG0w__&Key-Pair-Id=K3MG148K9RIRF4" type="video/mp4">
+                Your Browser does not support this video content.
+            </video>
+            <h4 id="start-coding">And start coding!</h4>
+            <img src="https://v.fastcdn.co/u/595c9b42/63686853-0-python-total-price-s.gif" alt="Python coding" width="600px">
+        </aside>
+        <section id="contact">
+            <h4>Contact</h4>
+            <p>Email: <a href="mailto:exampleb@example.com">example@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/victor-bondaruk-2488361a/" target="_blank">Victor Bondaruk</a></p>
+        </section>
+    </main>
+    <footer>
+        <p> &copy; 2024 Victor Bondaruk. All rights reserved.</p>
+    </footer>
+</body>
+</html>
